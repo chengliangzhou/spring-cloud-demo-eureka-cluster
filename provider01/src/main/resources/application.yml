@@ -1,0 +1,12 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: provider01
+
+eureka:
+  client:
+     serviceUrl:
+          # 绑定其中一个注册中心
+          defaultZone: http://registry-center-1:9001/eureka/

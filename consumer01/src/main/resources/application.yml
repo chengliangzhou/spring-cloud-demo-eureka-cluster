@@ -1,0 +1,11 @@
+server:
+  port: 7001
+
+spring:
+  application:
+    name: consumer01
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://registry-center-3:9003/eureka/
